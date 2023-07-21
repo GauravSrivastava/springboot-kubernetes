@@ -16,4 +16,10 @@ public class BookmarkDTO {
     private String title;
     private String url;
     private Instant createdAt;
+
+    public BookmarkDTO(String title, String url, Instant createdAt) {
+        this.title = title;
+        this.url = url;
+        this.createdAt = createdAt;
+    }
 }
